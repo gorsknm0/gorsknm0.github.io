@@ -1,29 +1,27 @@
 ---
-title: "Personal Site"
-output: html_document
-date: "2023-03-03"
+title: "My website"
+output: 
+  html_document:
+    toc: FALSE
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
-## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+**Welcome to my website!**
 
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
+# Getting started
 
-You can also embed plots, for example:
+Click the links in the menu above to look around.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+# Notes
+
+This website is a collection of regular (R)Markdown document, so you can use all the usual formatting.
+
+If you are new to R Markdown, you can learn more about it [on the R Markdown website](https://rmarkdown.rstudio.com/). 
+
+I also have a discussion of R Markdown and reproducibility [on one of my course pages](https://andreashandel.github.io/MADAcourse/1e_ToolsforReproducibility.html). You'll find additional links to potentially useful R Markdown (and Github) resources there.
+
+
